@@ -14,5 +14,11 @@
 <form th:action="@{/logout}" method="post">
     <input type="submit" value="Sign Out"/>
 </form>
+<form th:action="@{/demo/add}" method="post">
+    <input type="text" name="login" value="login">
+    <input type="text" name="password" value="password">
+    <input type="text" name="admin" value="admin">
+    <input type="submit" value="add"/>
+</form>
 </body>
 </html>
